@@ -1,0 +1,24 @@
+body {
+    background-color: snow;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 25px 0;
+  background: url('http://upload.wikimedia.org/wikipedia/commons/1/10/Hot_pizza.jpg') no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+}
+
+h1 {
+  font-family: Palatino, serif;
+  color: snow;
+  text-shadow: 2px 2px 20px #000000;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}

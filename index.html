@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Validator</title>
+</head>
+<body>
+
+    <header>
+        <h1>Enter three values to find out what kind of triangle it is, if any...</h1>
+    </header>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <form action="validate.php" method="POST" id="validate_check">
+                    <div class="form-group">
+                        <label for="email">Enter Email:</label>
+                        <input name="email" id="email" type="email" placeholder="youremail@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="number">Enter Number:</label>
+                        <input name="number" id="number" type="number" placeholder="1-9999" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="number">Pick your favorite musician:</label>
+                        <br>
+                        <input type="radio" name="musicians" value="beethoven" checked> Beethoven
+                        <br>
+                        <input type="radio" name="musicians" value="josh_groban"> Josh Groban
+                        <br>
+                        <input type="radio" name="musicians" value="nickelback"> Nickelback
+                    </div>
+
+                    <br>
+                    <div class="btn-group">
+                        <button type="submit" class="btn btn-info btn-lg">
+                            <span class="glyphicon glyphicon-triangle-top"></span> Check
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
