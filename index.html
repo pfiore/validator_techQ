@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-md-6">
 
-                <form action="validate.php" method="POST" id="validate_check">
+                <form action="/validate.php" method="POST" id="validate_check">
                     <div class="form-group">
                         <label for="email">Enter Email:</label>
                         <input name="email" id="email" type="email" placeholder="youremail@email.com" required>
@@ -29,22 +29,22 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="number">Pick your favorite musician:</label>
-                        <br>
-                        <input type="radio" name="musicians" value="beethoven" checked> Beethoven
-                        <br>
-                        <input type="radio" name="musicians" value="josh_groban"> Josh Groban
-                        <br>
-                        <input type="radio" name="musicians" value="nickelback"> Nickelback
+                        <label for="musicians">Pick your favorite musician:</label>
+                        <!-- <form> -->
+                            <br>
+                            <input type="radio" name="musicians" value="beethoven" checked> Beethoven
+                            <br>
+                            <input type="radio" name="musicians" value="josh_groban"> Josh Groban
+                            <br>
+                            <input type="radio" name="musicians" value="nickelback"> Nickelback
+                        <!-- </form> -->
                     </div>
-
                     <br>
                     <div class="btn-group">
                         <button type="submit" class="btn btn-info btn-lg">
                             <span class="glyphicon glyphicon-triangle-top"></span> Check
                         </button>
                     </div>
-
                 </form>
             </div>
         </div>

@@ -1,9 +1,14 @@
 <?php
+// var_dump($_POST);
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = test_email($_POST["email"]);
         $number = test_number($_POST["number"]);
-
-        echo $email;
+        $musicians = $_POST["musicians"];
+        // var_dump($_POST["musicians"]);
+        all_valid($email, $number, $musicians);
+    }
+    else {
+        echo "<script type='text/javascript'>alert('Invalid Email');</script>";
     }
 
     function test_email($data) {
@@ -17,22 +22,39 @@
         if($number >= 1 && $number < 10000) {
             return $number;
         } else {
-            echo "<script type='text/javascript'>alert('Invalid number must be between 1 and 9999');</script>";
+            echo '<script type="text/javascript">alert("Invalid number must be between 1 and 9999");</script>';
         }
     }
 
-    // function checkEmail($email) {
-    //     // Variable to check
-    //     $email = "john.doe@example.com";
-    //
-    //     // Remove all illegal characters from email
-    //     $email = filter_var($email, FILTER_SANITIZE_EMAIL);
-    //
-    //     // Validate e-mail
-    //     if (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
-    //          echo("$email is a valid email address");
-    //     } else {
-    //          echo("$email is not a valid email address");
-    //     }
-    // }
+    function all_valid($email, $number, $musicians) {
+        if (isset($email) && isset($number) && isset($musicians)) {
+            // echo "<script type='text/javascript'>$('#britney').delay(5000).fadeOut();</script>";
+            //wait 5 seconds
+            // echo "<script type='text/javascript'>$('.britney').fadeOut();</script>";
+        }
+    }
 ?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <title>Validator</title>
+</head>
+<body>
+
+    <header>
+        <h1></h1>
+    </header>
+    <p> hi </p>
+    <div class="britney">
+        <p>
+            "hooray!"
+        </p>
+    </div>
+
+</body>
+</html>
