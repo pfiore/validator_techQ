@@ -1,36 +1,17 @@
-# Name: Patrick Fiorentino
-### Date:4/17/2015
+# myDateClass: test question #2 for DART music
+## by Patrick Fiorentino
+### Date: May 19, 2015
 
-Description: JavaScript OO Assessment
+#### Description
 
-## SetUp and Use
-In order to use this program you will need web browser
+Answer to Question #3
 
-SetUp
-1. git clone https://github.com/pfiore/Pizza-co.git onto your desktop.
-2. open Pizza-co folder.
-3. right-click/open index.html with web browser.
+#### Setup instructions
 
-## Copyright (c) 2015 (Patrick Fiorentino)
+1. Clone this git repository
+2. Open /validate_music and start your server by entering php -S localhost:8000 in the terminal
+3. Open web browser and direct the url to localhost:8000
 
-## The MIT License (MIT)
+#### Copyright © 2015, Patrick Fiorentino
 
-## PERMISSION*
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to
-do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
- copies or substantial portions of the Software.
-
-## LICENSING*
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
+#### License: [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)
